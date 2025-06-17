@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+/.venv/
+
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# System
+Thumbs.db
+
+# Logs
+*.log
+
+# Data backups
+*.bak
+*.tmp
+*.swp
+
+# Secret files (if any)
+.env
