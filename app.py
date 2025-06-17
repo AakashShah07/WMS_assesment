@@ -120,8 +120,7 @@ elif mode == "Two Files (Merge SKU Mapping)":
 else:  # AI Analysis mode
     st.warning("Note: AI Analysis requires an OpenAI API key")
     
-    api_key = "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"
-    
+   
     # Upload SKU Mapping File
     sku_mapping_file = st.file_uploader("Upload SKU Mapping (Msku_With_Skus.csv)", type=["csv"])
     # Upload Sales File
